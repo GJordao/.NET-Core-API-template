@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.DataAccess", "Backend.DataAccess\Backend.DataAccess.csproj", "{4E706DA1-135A-4B93-87ED-D4286140900F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Api", "Backend.Api\Backend.Api.csproj", "{C25A95C1-99DB-4929-9B34-010FCDC96D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Models", "Backend.Models\Backend.Models.csproj", "{D066068D-474B-4BB6-A0F4-1CD715A26467}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E706DA1-135A-4B93-87ED-D4286140900F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E706DA1-135A-4B93-87ED-D4286140900F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E706DA1-135A-4B93-87ED-D4286140900F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E706DA1-135A-4B93-87ED-D4286140900F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C25A95C1-99DB-4929-9B34-010FCDC96D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C25A95C1-99DB-4929-9B34-010FCDC96D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C25A95C1-99DB-4929-9B34-010FCDC96D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C25A95C1-99DB-4929-9B34-010FCDC96D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D066068D-474B-4BB6-A0F4-1CD715A26467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D066068D-474B-4BB6-A0F4-1CD715A26467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D066068D-474B-4BB6-A0F4-1CD715A26467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D066068D-474B-4BB6-A0F4-1CD715A26467}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
