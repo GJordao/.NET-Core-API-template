@@ -5,11 +5,13 @@ namespace Backend.DataAccess
 {
     public class Context : DbContext
     {
-        public Context(DbContextOptions<Context> options) : base(options)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            this.Database.EnsureCreated();
+            optionsBuilder.UseSqlServer(
+                "Server=localhost,1433;Initial Catalog=EFSampleDB;User ID=sa;Password=********");
         }
 
         public DbSet<User> Users { get; set; }
     }
 }
+
